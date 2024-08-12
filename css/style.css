@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    font-weight: light;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    background-color: #8B9B7F;
+    align-items: center;
+}
+
+.bio_field{
+    width: 300px;
+    color: #fff;
+    margin: 0 100px;
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 29px;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+
+.images{
+    gap: 100px;
+    margin: 30px 50px;
+}
+
+img{
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+}
+
